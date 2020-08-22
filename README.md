@@ -9,7 +9,7 @@ You don't need any install if you've already installed python.
 
 #### How to run
 
-You can run your codes below.
+You can test your code by running the following command.
 
 ```
 $ pytest pytest_calc.py 
@@ -21,24 +21,6 @@ collected 4 items
 pytest_calc.py ....
 
 ======================================================================= 4 passed in 0.04 seconds =======================================================================
-```
-
-You can test your code by running the following command.
-
-```
-$ pytest -v pytest_calc.py 
-========================================================================= test session starts ==========================================================================
-platform linux2 -- Python 2.7.13, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /root/anaconda3/bin/python
-cachedir: .cache
-rootdir: /work/unit-test/src/hoge/tests, inifile:
-collected 4 items                                                                                                                                                       
-
-pytest_calc.py::test_add PASSED
-pytest_calc.py::test_sub PASSED
-pytest_calc.py::test_mul PASSED
-pytest_calc.py::test_div PASSED
-
-======================================================================= 4 passed in 0.02 seconds =======================================================================
 ```
 
 If you want to display the debug information, issue the following command.
