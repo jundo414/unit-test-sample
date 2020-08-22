@@ -70,19 +70,34 @@ $ pip install unittest
 
 #### How to run
 
-You can run your codes below.
-
-```
-```
-
 You can test your code by running the following command.
 
 ```
+$ python -m unittest -v unittest_calc
+test_add (unittest_calc.UnitestCalc) ... ok
+test_div (unittest_calc.UnitestCalc) ... ok
+test_mul (unittest_calc.UnitestCalc) ... ok
+test_sub (unittest_calc.UnitestCalc) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
 ```
 
 If you want to display the debug information, issue the following command
 
 ```
+$ python -m unittest -v unittest_calc
+test_add (unittest_calc.UnitestCalc) ... ok
+test_div (unittest_calc.UnitestCalc) ... ok
+test_mul (unittest_calc.UnitestCalc) ... ok
+test_sub (unittest_calc.UnitestCalc) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
 ```
 
 ## for Bash
