@@ -19,8 +19,7 @@ class UnitestCalc(unittest.TestCase):
         calc = Calc()
         self.assertEqual(3, calc.sub(8, 5))
         self.assertEqual(-5, calc.sub(1, 6))
-        #self.assertEqual(-14, calc.sub(-8, 6))
-        self.assertEqual(-12, calc.sub(-8, 6))
+        self.assertEqual(-14, calc.sub(-8, 6))
         self.assertEqual(2, calc.sub(-2, -4))
 
     def test_mul(self):
